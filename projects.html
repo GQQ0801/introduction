@@ -12,6 +12,13 @@
     <!-- 引入动画库 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
+<script>
+document.addEventListener("WeixinJSBridgeReady", function () {
+    const video = document.getElementById('player');
+    // 微信环境下，稍微加载一下视频，但不一定要播放
+    video.load(); 
+}, false);
+</script>
 <body>
     <div class="site-container">
         <!-- 导航菜单 -->
@@ -62,11 +69,7 @@
 
                 <div class="project-media">
                     <div class="video-container" >
-                        <video playsinline 
-  webkit-playsinline 
-  x5-video-player-type="h5-page"  
-  x5-video-player-fullscreen="true"
-  x5-video-orientation="portrait" class="custom-video"   controls src="https://1326890862.vod-qcloud.com/9c3f6036vodsh1326890862/63999c941397757908120834885/35Lcx10N8WsA.mp4#t=0.001" type="video/mp4">   
+                        <video class="custom-video"   controls src="https://1326890862.vod-qcloud.com/9c3f6036vodsh1326890862/63999c941397757908120834885/35Lcx10N8WsA.mp4#t=0.001" type="video/mp4">   
                         </video>
                     </div>
                 </div>
