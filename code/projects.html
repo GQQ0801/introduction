@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>项目</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- 引入字体 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- 引入动画库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body>
+    <div class="site-container">
+        <!-- 导航菜单 -->
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">GQQ</a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">主页</a>
+                <a href="resume.html">简历</a>
+                <a href="projects.html" class="active">项目</a>
+                <a href="photography.html">摄影</a>
+                <!-- <a href="life.html">生活</a> -->
+            </div>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+
+        <!-- 项目内容 -->
+        <main class="projects-container animate__animated animate__fadeIn">
+            <header class="page-header">
+                <h1>开发经历</h1>
+                <p class="subtitle">这里展示了我23-24年设计开发的部分项目</p>
+                <div>
+
+                    <span class="icon">🌐</span>
+                    <a href="https://space.bilibili.com/473000526" target="_blank">bilibili主页</a>
+                    <span class="icon">📄</span>
+                    <a href="assets/pf.pdf">历史作品集</a> 
+                    
+                </div>
+                
+                
+            </header>
+
+            <section id="project1" class="project-details">
+                <div class="project-header">
+                    <h2>智能虚拟宠物应⽤</h2>
+                    <div class="project-meta">
+                        <span class="tag">AR</span>
+                        <span class="tag">手势互动</span>
+                        <span class="tag">LLM</span>
+                    </div>
+                </div>
+
+                <div class="project-media">
+                    <div class="video-container" >
+                        <video class="custom-video"   controls src="https://1326890862.vod-qcloud.com/9c3f6036vodsh1326890862/63999c941397757908120834885/35Lcx10N8WsA.mp4" type="video/mp4">   
+                        </video>
+                    </div>
+                </div>
+                
+                <div class="project-description">
+                    <h3>项目介绍</h3>
+                    <p>本项目是一款结合AR与AI技术的虚拟宠物应用。通过增强现实技术将虚拟宠物与现实世界相结合，让用户可以通过手机在真实世界中与虚拟宠物进行互动。旨在为用户带来更丰富的交互娱乐方式，提供情感支持和陪伴，帮助用户放松心情、缓解焦虑和压力。</p>
+
+                    <h3>技术实现</h3>
+                    <ul>
+                        <li>使用Unity3D 进行开发，适配Android平台。</li>
+                        <li>基于EasyAR SDK实现环境识别，以自然和逼真的方式将虚拟宠物叠加到现实世界中，为用户提供一个富有互动性和沉浸感的虚拟宠物养成体验。</li>
+                        <li>基于ManoMotion 完成手势识别，为用户提供了一种新颖的交互方式，使他们能够通过手势自然地指挥和玩耍他们的虚拟宠物。</li>
+                        <li>基于大模型API实现聊天功能，强化情感陪伴价值。</li>
+                    </ul>
+                </div>
+            </section>
+
+            
+
+            <section id="project3" class="project-details">
+                <div class="project-header">
+                    <h2>Ferryman</h2>
+                    <div class="project-meta">
+                        <span class="tag">UE</span>
+                        <span class="tag">双人游戏</span>
+                    </div>
+                </div>
+                <div class="project-media">
+                    <div class="video-container" >
+                        <video class="custom-video"   controls src="https://1326890862.vod-qcloud.com/9c3f6036vodsh1326890862/6d9ee62b1397757908144724404/tXcni4INtjsA.mp4" type="video/mp4">       
+                        </video>
+                    </div>
+                </div>
+
+                <div class="project-description">
+                    <h3>项目介绍</h3>
+                    <p>
+                        这是一款双人合作闯关游戏。两位玩家分别扮演摆渡人和迷失者的角色。
+                        摆渡人需要守护迷失者帮助其逃离荒原。迷失者需要收集散落在荒原中的记忆碎片。
+                        通过键盘和鼠标进行交互，包括角色的操控和与场景中道具的交互。
+                    </p>
+                </div>
+            </section>
+
+            <section id="project4" class="project-details">
+                <div class="project-header">
+                    <h2>记忆碎片</h2>
+                    <div class="project-meta">
+                        <span class="tag">UE</span>
+                        <span class="tag">单人游戏</span>
+                    </div>
+                </div>
+
+                <div class="project-media">
+                    <div class="video-container" >
+                        <video class="custom-video"   controls src="https://1326890862.vod-qcloud.com/9c3f6036vodsh1326890862/37a93d911397757908140664807/AjuqL3GnDrwA.mp4" type="video/mp4">       
+                        </video>
+                    </div>
+                </div>           
+                <div class="project-description">
+                    <h3>项目介绍</h3>
+                    <p>
+                        这是一款简单的横版闯关游戏。在游戏中，玩家需要通过键盘操控游戏角色，收集散落在场景中的记忆碎片进行闯关。
+                    </p>
+                </div>    
+            </section>
+
+            <section id="project5" class="project-details">
+                <div class="project-header">
+                    <h2>拾光</h2>
+                    <div class="project-meta">
+                        <span class="tag">UE</span>
+                        <span class="tag">单人游戏</span>
+                    </div>
+                </div>
+                <div class="project-media">
+                    <div class="video-container" >
+                        <video class="custom-video"   controls src="https://1326890862.vod-qcloud.com/9c3f6036vodsh1326890862/623b616d1397757908144260951/vSy6nmydN7QA.mp4" type="video/mp4">       
+                        </video>
+                    </div>
+                </div>
+                <div class="project-description">
+                    <h3>项目介绍</h3>
+                    <p>
+                        这是一款解谜游戏。在游戏中，玩家需要通过键盘操控游戏角色，解开谜题，躲避场景中的黑暗怪物进行闯关。
+                    </p>
+                </div>  
+
+            </section>
+            <section id="project2" class="project-details">
+                <div class="project-header">
+                    <h2>AI实时隔空绘画</h2>
+                    <div class="project-meta">
+                        <span class="tag">Mediapipe</span>
+                        <span class="tag">Stable Diffusion</span>
+                        <span class="tag">手势互动</span>
+                    </div>
+                </div>
+
+                <div class="project-media">
+                    <div class="video-container" >
+                        <video class="custom-video"   controls src="https://1326890862.vod-qcloud.com/3d4be96fvodcq1326890862/28a547e51397757908133211337/TL4JR8odEkUA.mp4" type="video/mp4">       
+                        </video>
+                    </div>
+                </div>
+
+                <div class="project-description">
+                    <h3>项目介绍</h3>
+                    <p>
+                        本项目构建了一个基于手势互动的AI实时绘画空间。
+                        用户可以通过手势进行隔空互动，系统会记录用户手部位置绘制成对应的线稿，然后由AI生成独一无二的风格化图片。
+                        打破传统绘画的局限，使得艺术创作更加灵活和自由。
+                    </p>
+
+                    <h3>技术实现</h3>
+                    <ul>
+                        <li>项目整体基于Touchdesigner进行开发。</li>
+                        <li>通过mediapipe从摄像头捕获视频中识别出用户的手部关节来定位画笔位置。</li>
+                        <li>通过comfyui工作流对用户绘制的内容进行处理。</li>
+                        <li>选取Stable Diffusion XL作为基础模型，通过LORA微调实现不同绘画风格切换，生成实时对应的AI画作。</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <!-- 页脚 -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">Good morning，good afternoon，and good night.</div>
+                <!-- <div class="footer-links">
+                    <a>geqinqin0801@foxmail.com</a>
+                    <a href="https://space.bilibili.com/473000526" target="_blank">bilibili个人主页</a>
+                </div> -->
+                <div class="copyright">
+                    &copy; 2026 戈沁沁. 版权所有
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

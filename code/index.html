@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网站</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- 引入字体 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- 引入动画库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body>
+    <div class="site-container">
+        <!-- 导航菜单 -->
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">GQQ</a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="active">主页</a>
+                <a href="resume.html">简历</a>
+                <a href="projects.html">项目</a>
+                <a href="photography.html">摄影</a>
+                <!-- <a href="life.html">生活</a> -->
+            </div>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+
+        <!-- 主页内容 -->
+        <main>
+            <section class="hero">
+                <div class="hero-content animate__animated animate__fadeIn">
+                    <h1>你好，我是<span class="highlight">戈沁沁</span></h1>
+                    <p class="subtitle">geqinqin0801@foxmail.com | 15261122562 | 江苏·常州</p>
+                    <p class="description">
+                        做事认真负责，好沟通，有团队合作精神。<br>
+                        乐于探索新事物，对传统文化也很感兴趣，喜欢手工DIY。<br>
+                        努力向外社交的i人一枚，希望能有机会认识更多新朋友。
+                    </p>
+                    
+                    <div class="buttons">
+                        <a href="resume.html" class="btn primary">个人简历</a>
+                        <a href="projects.html" class="btn secondary">开发项目</a>
+                        <a href="photography.html" class="btn secondary">摄影作品</a>
+                    </div>
+                </div>
+                <div class="hero-image animate__animated animate__fadeInRight">
+                    <div class="profile-shape"></div>
+                </div>
+            </section>          
+        </main>
+
+        <!-- 页脚 -->
+        <footer>
+            <div class="footer-content">
+                <script src="https://utteranc.es/client.js"
+                repo="GQQ0801/aboutme"
+                issue-term="title"
+                label="comment"
+                theme="github-dark"
+                crossorigin="anonymous"
+                async>
+                </script>
+
+                <div class="footer-logo">Good morning，good afternoon，and good night.</div>
+                
+                <div class="copyright">
+                    &copy; 2026 戈沁沁. 版权所有
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
